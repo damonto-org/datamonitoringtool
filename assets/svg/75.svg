@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="21" viewBox="0 0 74 21">
+  <g id="Group_56" data-name="Group 56" transform="translate(-1489 -5946)">
+    <text id="_75_" data-name="75%" transform="translate(1520 5962)" fill="#a2d02e" font-size="21" font-family="Helvetica"><tspan x="0" y="0">75%</tspan></text>
+    <g id="chat-arrow-grow" transform="translate(1489 5946)">
+      <path id="Path_6" data-name="Path 6" d="M16.849,3.976h-2.09a.677.677,0,0,0-.479,1.156l.736.736h0L12.586,8.3a.694.694,0,0,1-.958,0l-.115-.116a2.08,2.08,0,0,0-2.874,0L5.184,11.634a.68.68,0,1,0,.962.96L9.6,9.14a.693.693,0,0,1,.958,0l.115.116a2.081,2.081,0,0,0,2.874,0l2.429-2.429h0l.736.736a.677.677,0,0,0,1.151-.48V4.992A1.016,1.016,0,0,0,16.849,3.976Z" transform="translate(-1.849 -1.37)" fill="#a2d02e"/>
+      <path id="Path_7" data-name="Path 7" d="M15.349,14.665H3.337a2,2,0,0,1-2-2v-12A.667.667,0,1,0,0,.667v12A3.341,3.341,0,0,0,3.337,16H15.349a.667.667,0,0,0,0-1.335Z" fill="#a2d02e"/>
+    </g>
+  </g>
+</svg>
