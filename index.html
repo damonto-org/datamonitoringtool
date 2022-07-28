@@ -34,6 +34,7 @@
         <ul>
           <li>
             <a href="#">Home</a>
+            <hr>
           </li>
           <li><a href="#">Ex Link 1</a></li>
           <li><a href="#">Ex Link 2</a></li>
@@ -44,7 +45,7 @@
     <section id="header">
       <div class="container">
         <div class="row mt-3">
-          <div class="col-lg-4 col-sm-6 col-md-4 col-xl-4 col-0 d-flex align-items-center hide_mobile">
+          <div class=" mob_dont_show col-lg-4 col-sm-6 col-md-4 col-xl-4 col-0 d-flex align-items-center ">
               <div id="Schedule_a_Demo" class="sch-demo btn text-white">
                 <tspan x="0" y="0" >Schedule a Demo</tspan></text>
               </div>
@@ -234,9 +235,9 @@
       <div class="container z-index-1 position-relative">
         <div class="row">
           <div class="col-lg-7 col-md-12 col-sm-12 col-12">
-            <img src="assets/img/cascadas_admin.png" class="Rensponsive" >
+            <img src="assets/svg/admin_screen.jpg" class="Rensponsive" >
           </div>
-          <div class="col-lg-5 col-md-5 col-sm-12 col-12 pt-5">
+          <div class="col-lg-5 col-sm-12 col-12 pt-5">
             <h4 class="design-bold lm-5">Everything in One Place. Finally</h4>
             <p class="font-weight-light">
               DMT pulls together all the tools, databases, and knowledge into one SaaS tool. <br><br>
@@ -256,7 +257,7 @@
     <section class="service_1 position-relative overflow-hidden">
       <div class="container z-index-1 position-relative">
         <div class="row">
-          <div class="col-lg-5 col-md-12 col-sm-12 col-12 pt-5">
+          <div class="col-lg-5 col-md-12 col-sm-12 col-12 pt-5 order-mobile-2">
             <h4 class="design-bold lm-5">Features Purpose Built for IoT Companies</h4>
             <p class="font-weight-light">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
@@ -276,7 +277,7 @@
                     Secure by default
                   </div>
               </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 col-12 mb-2">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-12 mb-2 ">
                 <div>
                     <img src="assets/svg/tick.svg">
                     Multiple MQTT clients
@@ -295,8 +296,8 @@
             <p>&nbsp;</p>
             <p>&nbsp;</p>
           </div>
-          <div class="col-lg-7 col-md-12 col-sm-12 col-12">
-            <img src="assets/img/cascadas_admin.png" class="Rensponsive_Right" >
+          <div class="col-lg-7 col-md-12 col-sm-12 col-12 order-mobile-1">
+            <img src="assets/svg/second_screen.jpg" class="Rensponsive_Right" >
           </div>
         </div>
       </div>
@@ -329,13 +330,19 @@
         <div class="carousel mt-4"
         data-flickity='{ "wrapAround": true }'>
           <div class="carousel-cell">
-            <img src="assets/img/cascadas_admin.png">
+            <img src="assets/svg/charts.jpg">
           </div>
           <div class="carousel-cell">
-            <img src="assets/img/cascadas_admin.png">
+            <img src="assets/svg/first_screen.jpg">
           </div>
           <div class="carousel-cell">
-            <img src="assets/img/cascadas_admin.png">
+            <img src="assets/svg/admin_screen.jpg" >
+          </div>
+          <div class="carousel-cell">
+            <img src="assets/svg/IOT_commands.jpg" >
+          </div>
+          <div class="carousel-cell">
+            <img src="assets/svg/second_screen.jpg">
           </div>
       </div>
     </div>
@@ -390,7 +397,7 @@
          <div class="connection mt-2">Less New Build </div>
       <div class="connection">Testing Time</div>
     </div>
-    <div class="col-sm-6 col-md-4 col-xl-2 col-lg-2 col-6 mb-4"><img src="assets/svg/3x.svg">
+    <div class="col-sm-6 col-md-4 col-xl-2 col-lg-2 col-6 mb-4"><img src="assets/svg/75.svg">
          <div class="connection mt-2">Reduction in  </div>
       <div class="connection">Support Costs</div>
     </div>
@@ -482,10 +489,6 @@
 
 
 <script>
-    // var menu = document.getElementById("menu");
-    // function closemenu() {
-    //    menu.style.top = "-100vh"
-    //   }
 $("#scroll_down_to_prestasion").click(() => {
   $('body').animate({
       scrollTop: $("#presentation").offset().top - 100
@@ -496,10 +499,13 @@ $('.menu-logo').click(()=>{
   if($("body").hasClass('sidebar_active')){
     $("body").removeClass('sidebar_active')
     $("body").removeClass('overflow-hidden')
-  }else{
+  } else{
     $("body").addClass('sidebar_active')
     $("body").addClass('overflow-hidden')
   }
   $('.sidebar_full_width').toggle('slow');
+
 });
+
+
 </script>
