@@ -109,6 +109,7 @@ body {
 	border: 2px solid #a2d02e;
 	font-size: 16px;
 	margin-bottom: 0;
+	background-color: #a2d02e;;
 }
 
 .sch-demo2 {
@@ -139,7 +140,7 @@ body {
 
 #header {
 	position: fixed;
-	background-color: rgba(0, 0, 0, .6);
+	background-color: white;
 	top: 0;
 	left: 0;
 	opacity: 1;
@@ -187,6 +188,7 @@ body {
 .pading-left-right {
 	padding-left: 8px;
 	padding-right: 8px;
+	color: black;
 }
 
 .watch_demo {
@@ -273,7 +275,10 @@ body {
 	border: 1px solid black !important;
 	color: #000000 !important;
 }
-
+.sch-demo:hover {
+	border: 1px solid black !important;
+	color: #000000 !important;
+}
 .greenbc {
 	background-color: #A2D02E;
 	padding-top: 7rem;
@@ -361,15 +366,10 @@ body {
 }
 
 .footer_text {
-	text-align: center;
+	text-align: left;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: black;
-	font-weight: lighter;
-	opacity: 0.347;
-	font-weight: 700;
-	font-size: 50;
+	justify-content: left;
+	align-items: left;
 }
 
 .footer {
@@ -386,17 +386,25 @@ body {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
-
+.header_background{
+	background-color: #F4F4F4
+}
 .footer_title {
 	color: #000000;
 	opacity: 0.35;
 }
 
 .text_IoT {
-	margin-left: 25px;
+	margin-left: 18px;
 
 }
-
+.logo_iot{
+	width: 5%;
+}
+.text_youre_secure{
+	text-align: center;
+    font-size: 50;
+}
 .sch-demo1 {
 	text-align: center;
 	justify-content: center;
@@ -731,7 +739,25 @@ body {
 	justify-content: left;
 
 }
+.damonto_integrating{
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.tools_damonto{
+	background-color: #F4F4F4;
 
+}
+.iot_logo{
+	width: 10%;
+}
+.text_iot{
+	color: black;
+    font-size: 30;
+	justify-content: center;
+	text-align: center;
+	margin: 0;
+}
 .sutro_logo {
 	width: 150px;
 	object-fit: contain;
@@ -773,6 +799,7 @@ body {
 
 .sidebar_active #header {
 	background: transparent !important;
+
 }
 @media (min-width: 992px){
 	.container{
@@ -804,7 +831,9 @@ body {
 	.order-mobile-1 {
 		order: 1;
 	}
-
+	.arrow_right{
+		justify-content: left;
+	}
 	.footer_menu_links1 {
 		margin-top: 20px;
 		flex-direction: column;
@@ -831,7 +860,9 @@ body {
 		color: #000 !important;
 
 	}
-	
+	.iot_logo{
+		width: 25%;
+	}
 
 
 
@@ -843,7 +874,7 @@ body {
 		font-size: 25px;
 		line-height: 30px;
 	}
-
+	
 	.header {
 		height: 600px;
 	}
@@ -853,10 +884,10 @@ body {
 		margin: 0 !important;
 	}
 
-	.sch-demo {
-		display: none;
-	}
 
+	.arrow_right{
+		justify-content: left;
+	}
 	.sidebar_active .sch-demo {
 		border: 2px solid #000;
 		color: #000 !important;
@@ -930,7 +961,9 @@ body {
 	.order-mobile-1 {
 		order: 1;
 	}
-
+	.iot_logo{
+		width: 25%;
+	}
 	.service_1 {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
@@ -952,14 +985,36 @@ body {
 	.sch-demo {
 		display: none;
 	}
+	.ceneter_text{
+		justify-content: left;
 
+	}
+	.iot_logo{
+		width: 25%;
+	}
+	.img{
+		width: 100%;
+		position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%); 
+	}
+	.div{
+		width: 200px;
+		height: 200px;
+		overflow: hidden;
+		border: 2px solid red;
+		position: relative;
+	}
 	.sidebar_active .sch-demo {
 		border: 2px solid #000;
 		color: #000 !important;
 		position: fixed;
 		bottom: 12;
 	}
-
+	.container{
+		width: 90%;
+	}
 	.watch_demo_mob {
 		justify-content: center;
 	}
@@ -971,5 +1026,5 @@ body {
 	.order-mobile-1 {
 		order: 1;
 	}
-
+	
 }
