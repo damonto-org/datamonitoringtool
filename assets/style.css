@@ -399,7 +399,10 @@ body {
 
 }
 .logo_iot{
-	width: 7%;
+	width: 6%;
+}
+.dcl_logo{
+	width: 11%;
 }
 .text_youre_secure{
 	text-align: center;
@@ -981,13 +984,19 @@ body {
 		text-align: center;
 		justify-content: center;
 	}
-
+	.image_res{
+		width: 100% !important;
+		height: auto !important;
+	}
 	.sch-demo {
 		display: none;
 	}
 	.ceneter_text{
 		justify-content: left;
 
+	}
+	.dcl_logo{
+		width: 20%;
 	}
 	.iot_logo{
 		width: 25%;
