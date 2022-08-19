@@ -53,7 +53,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	padding-top: ;
+
 }
 
 .services_cards .item_card_service .list_item_card {
@@ -808,6 +808,10 @@ body {
 	.container{
 		max-width: 1170px !important;
 	}
+	.image_res{
+		width: 100% !important;
+		height: auto !important;
+	}
 }
 
 @media (max-width: 992px) and (min-width: 767px) {
@@ -866,6 +870,9 @@ body {
 	.iot_logo{
 		width: 25%;
 	}
+	.logo_iot{
+		width: 18%;
+	}
 
 
 
@@ -887,6 +894,9 @@ body {
 		margin: 0 !important;
 	}
 
+	.logo_iot{
+		width: 18%;
+	}
 
 	.arrow_right{
 		justify-content: left;
@@ -941,6 +951,7 @@ body {
 
 	}
 
+
 	.demo_watch {
 		margin-top: 10px;
 	}
@@ -965,7 +976,7 @@ body {
 		order: 1;
 	}
 	.iot_logo{
-		width: 25%;
+		width: 18%;
 	}
 	.service_1 {
 		padding-top: 1rem;
@@ -983,11 +994,16 @@ body {
 		display: flex;
 		text-align: center;
 		justify-content: center;
+		font-size: 41px;
 	}
 	.image_res{
 		width: 100% !important;
 		height: auto !important;
 	}
+	.logo_iot{
+		width: 18%;
+	}
+
 	.sch-demo {
 		display: none;
 	}
@@ -999,7 +1015,7 @@ body {
 		width: 20%;
 	}
 	.iot_logo{
-		width: 25%;
+		width: 18%;
 	}
 	.img{
 		width: 100%;
@@ -1034,6 +1050,9 @@ body {
 
 	.order-mobile-1 {
 		order: 1;
+	}
+	.margin_bottom50px{
+		margin-bottom: 50px;
 	}
 	
 }
