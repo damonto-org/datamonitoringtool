@@ -53,8 +53,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	height: 100%;
 
 }
+
 
 .services_cards .item_card_service .list_item_card {
 	display: flex;
@@ -319,6 +321,8 @@ body {
 
 .font-bold {
 	font-weight: 900 !important;
+	text-shadow: 0px 1px, 1px 0px, 1px 1px;
+	letter-spacing: 1px;
 }
 
 .font-regular {
@@ -329,6 +333,8 @@ body {
 	display: flex;
 	color: white;
 	color: black;
+	text-shadow: 0px 1px, 1px 0px, 1px 1px;
+	letter-spacing: 1px;
 }
 
 .text_fourth1 {
@@ -338,6 +344,8 @@ body {
 	color: white;
 	text-align: center;
 	color: black;
+	text-shadow: 0px 1px, 1px 0px, 1px 1px;
+	letter-spacing: 2px;
 }
 
 .last_bold {
@@ -352,16 +360,25 @@ body {
 	display: flex;
 	color: white;
 	color: black;
-
+	line-height: 35px !important;
 }
 
 .last_text {
 	text-align: center;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 	color: black;
 	font-weight: lighter;
+
+}
+.damonto_last_text {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	font-weight: bold;
 
 }
 
@@ -399,7 +416,7 @@ body {
 
 }
 .logo_iot{
-	width: 6%;
+	width: 4.5%;
 }
 .dcl_logo{
 	width: 11%;
@@ -510,6 +527,8 @@ body {
 
 .design-bold {
 	font-weight: bold;
+	text-shadow: 0px 1px, 1px 0px, 1px 1px;
+	letter-spacing: 2px;
 }
 .ml_10{
 	margin-left: 10px;
@@ -519,8 +538,12 @@ body {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	line-height: 29px;
 }
-
+.padding_left{
+	padding-left: 8px;
+	text-align: center;
+}
 .real_saving {
 	display: flex !important;
 	justify-content: center !important;
@@ -657,6 +680,7 @@ body {
 	justify-content: flex-end;
 
 }
+
 .left_swipe {
 	display: flex;
 	justify-content: center;
@@ -871,7 +895,7 @@ body {
 		width: 25%;
 	}
 	.logo_iot{
-		width: 18%;
+		width: 8.5%;
 	}
 
 
@@ -895,7 +919,7 @@ body {
 	}
 
 	.logo_iot{
-		width: 18%;
+		width: 13% !important;
 	}
 
 	.arrow_right{
@@ -976,7 +1000,10 @@ body {
 		order: 1;
 	}
 	.iot_logo{
-		width: 18%;
+		width: 30%;
+	}
+	.dcl_logo{
+		width: 20%;
 	}
 	.service_1 {
 		padding-top: 1rem;
@@ -1001,7 +1028,7 @@ body {
 		height: auto !important;
 	}
 	.logo_iot{
-		width: 18%;
+		width: 11%;
 	}
 
 	.sch-demo {
